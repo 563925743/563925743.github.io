@@ -44,7 +44,7 @@ education:
 
 experience:
 - name: ByteDance
-  logo: /assets/images/badges/ByteDance.png
+  logo: /assets/images/badges/byteDance.png
   position: Seed-AI for Science, Research Scientist Intern
   date: May 2025 -- Present
 - name: Argonne National Laboratory
