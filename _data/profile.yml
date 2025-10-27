@@ -21,7 +21,7 @@ linkedin: https://www.linkedin.com/in/yang-fengyu/
 
 short_bio_text_justify: false
 short_bio: >-
-  I am currently a Ph.D. candidate at University of North Carolina at Chapel Hill, advised by Prof. Shahar Kovalsky. My research focuses on \textit{Differentiable Optimization}, \textit{Machine Learning}, and \textit{Statistical Modeling}. I am currently a Research Scientist intern at ByteDance Seed-AI for Science team, working on AI-driven protein structure reconstruction. 
+  I am currently a Ph.D. candidate at University of North Carolina at Chapel Hill, advised by Prof. Shahar Kovalsky. My research focuses on *Differentiable Optimization, Machine Learning, and Statistical Modeling*. I am currently a Research Scientist intern at ByteDance Seed-AI for Science team, working on AI-driven protein structure reconstruction. 
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: >-
   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
@@ -42,16 +42,16 @@ education:
   position: B.S. in Statistics of Mathematics School
   date: Sep. 2015 - Jun. 2019
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2019
+experience:
+- name: Peking University
+  logo: /assets/images/badges/PKU_red.png
+  position: Research Intern
+  date: Sep. 2019 - Jul. 2019
 
-awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+# awards:
+# - name: Award Name 2
+#   date: 2024
+# - name: Award Name 1 
+#   date: 2021
+# - name: A quick brown fox jumps over the lazy dog and runs away award
+#   date: 2021
