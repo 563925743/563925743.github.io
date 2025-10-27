@@ -21,36 +21,32 @@ linkedin: https://www.linkedin.com/in/yang-fengyu/
 
 short_bio_text_justify: false
 short_bio: >-
-  <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
-  </p>
-  <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
-  </p>
-
+  I am currently a Ph.D. candidate at University of North Carolina at Chapel Hill, advised by Prof. Shahar Kovalsky. My research focuses on \textit{Differentiable Optimization}, \textit{Machine Learning}, and \textit{Statistical Modeling}. I am currently a Research Scientist intern at ByteDance Seed-AI for Science team, working on AI-driven protein structure reconstruction. 
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: >-
   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
-- name: Massachusetts Institute of Technology
+- name: University of North Carolina, Chapel Hill
   logo: /assets/images/badges/MIT_Social_circle.png
   position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
+    Ph.D. in Applied Mathematics, Minor in Statistics & Operations Research
+  date: Aug. 2021 - present
+- name: University of Chicago
   logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+  position: M.S. in Computational and Applied Mathematics
+  date: Sep. 2019 - Mar. 2021
+
+- name: Shandong University
+  logo: /assets/images/badges/PKU_red.png
+  position: B.S. in Statistics of Mathematics School
+  date: Sep. 2015 - Jun. 2019
 
 # experience:
 # - name: Peking University
 #   logo: /assets/images/badges/PKU_red.png
 #   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+#   date: Sep. 2019 - Jul. 2019
 
 awards:
 - name: Award Name 2
