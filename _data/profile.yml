@@ -38,7 +38,7 @@ education:
   date: Sep. 2019 - Mar. 2021
 
 - name: Shandong University
-  # logo: /assets/images/badges/sdu.jpg
+  logo: /assets/images/badges/sdu.jpg
   position: B.S. in Statistics of Mathematics School
   date: Sep. 2015 - Jun. 2019
 
@@ -47,14 +47,16 @@ experience:
   logo: /assets/images/badges/byteDance.png
   position: Seed-AI for Science, Research Scientist Intern
   date: May 2025 -- Present
+  
 - name: Argonne National Laboratory
   logo: /assets/images/badges/argn.png
   position: Givens Associate
   date: May 2023 - Aug. 2023
+  
 - name: Deloitte Consulting (Shanghai)
-logo: /assets/images/badges/deloitte.png
-position: Data Visualization & Analyst Intern
-date: Aug. 2018 - Feb. 2019
+  logo: /assets/images/badges/deloitte.png
+  position: Data Visualization & Analyst Intern
+  date: Aug. 2018 - Feb. 2019
   
 
 # awards:
