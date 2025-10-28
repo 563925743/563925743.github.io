@@ -1,6 +1,6 @@
 ---
-title:          "Convallis a cras semper auctor neque vitae rutrum quisque non tellus orci ac"
-date:           2024-05-12 00:01:00 +0800
+title:          "Differentiation Through Black-Box Quadratic Programming Solvers"
+date:           2025-10-12 00:01:00 +0800
 selected:       true
 pub:            "NeurIPS"
 # pub_pre:        "Submitted to "
@@ -13,10 +13,10 @@ abstract: >-
   To address this limitation, we introduce **dQP**, a modular and solver-agnostic framework for plug-and-play differentiation of virtually any QP solver. A key insight we leverage to achieve modularity is that, once the active set of inequality constraints is known, both the solution and its derivative can be expressed using simplified linear systems that share the same matrix. This formulation fully decouples the computation of the QP solution from its differentiation. 
   Building on this result, we provide a minimal-overhead, open-source implementation ([GitHub](https://github.com/cwmagoon/dQP)) that seamlessly integrates with over 15 state-of-the-art solvers. Comprehensive benchmark experiments demonstrate dQP’s robustness and scalability, particularly highlighting its advantages in large-scale sparse problems.
 
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/covers/dQP.jpg
 authors:
   - Connor W. Magoon
-  - Fengyu Yang
+  - **Fengyu Yang**
   - Noam Aigerman
   - Shahar Z. Kovalsky
 links:
