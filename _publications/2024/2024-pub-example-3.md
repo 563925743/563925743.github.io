@@ -9,10 +9,10 @@ pub_last:       ' <span class="badge badge-pill badge-publication badge-success"
 pub_date:       "2025"
 semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
 abstract: >-
-Differentiable optimization has attracted significant research interest, particularly for quadratic programming (QP). Existing approaches for differentiating the solution of a QP with respect to its defining parameters often rely on specific integrated solvers. This integration limits their applicability, including their use in neural network architectures and bi-level optimization tasks, restricting users to a narrow selection of solver choices. 
+  Differentiable optimization has attracted significant research interest, particularly for quadratic programming (QP). Existing approaches for differentiating the solution of a QP with respect to its defining parameters often rely on specific integrated solvers. This integration limits their applicability, including their use in neural network architectures and bi-level optimization tasks, restricting users to a narrow selection of solver choices. 
   To address this limitation, we introduce **dQP**, a modular and solver-agnostic framework for plug-and-play differentiation of virtually any QP solver. A key insight we leverage to achieve modularity is that, once the active set of inequality constraints is known, both the solution and its derivative can be expressed using simplified linear systems that share the same matrix. This formulation fully decouples the computation of the QP solution from its differentiation. 
   Building on this result, we provide a minimal-overhead, open-source implementation ([GitHub](https://github.com/cwmagoon/dQP)) that seamlessly integrates with over 15 state-of-the-art solvers. Comprehensive benchmark experiments demonstrate dQP’s robustness and scalability, particularly highlighting its advantages in large-scale sparse problems.
-  
+
 cover:          /assets/images/covers/cover3.jpg
 authors:
   - Connor W. Magoon
