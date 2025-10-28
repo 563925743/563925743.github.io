@@ -20,6 +20,6 @@ authors:
   - Noam Aigerman
   - Shahar Z. Kovalsky
 links:
-  Code: [https://github.com/luost26/academic-homepage](https://github.com/cwmagoon/dQP)
+  Code: https://github.com/cwmagoon/dQP
   Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
 ---
