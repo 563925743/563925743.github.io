@@ -2,21 +2,24 @@
 title:          "Convallis a cras semper auctor neque vitae rutrum quisque non tellus orci ac"
 date:           2024-05-12 00:01:00 +0800
 selected:       true
-pub:            "International Conference on Machine Learning (ICML)"
+pub:            "NeurIPS"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
-pub_date:       "2024"
+pub_date:       "2025"
 semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
 abstract: >-
-  Photo by Pineapple Supply Co. on Unsplash. Please put a tldr (too-long-didnt-read, 1~2 sentences) of your publication here. It is not recommended to put the actual abstract here because it is usually too long to fit in. $\LaTeX$ is supported. $a=b+c$.
+  Differentiable optimization has attracted significant research interest, particularly for quadratic programming (QP). Existing approaches for differentiating the solution of a QP with respect to its defining parameters often rely on specific integrated solvers. This integration limits their applicability, including their use in neural network architectures and bi-level optimization tasks, restricting users to a narrow selection of solver choices. To address this limitation, we introduce dQP, a modular and solver-agnostic framework for plug-and-play differentiation of virtually any QP solver. A key insight we leverage to achieve modularity is that, once the active set of inequality constraints is known, both the solution and its derivative can be expressed using simplified linear systems that share the same matrix. This formulation fully decouples the computation of the QP solution from its differentiation.
+Building on this result, we provide a minimal-overhead, open-source implementation (https://github.com/cwmagoon/dQP) that seamlessly integrates with
+over 15 state-of-the-art solvers. Comprehensive benchmark experiments demonstrate dQP’s robustness and scalability, particularly highlighting its advantages in
+large-scale sparse problems.
 cover:          /assets/images/covers/cover3.jpg
 authors:
-  - Your Name
-  - James Wang
-  - Some Other Name
-  - John Doe
+  - Connor W. Magoon
+  - Fengyu Yang
+  - Noam Aigerman
+  - Shahar Z. Kovalsky
 links:
-  Code: https://github.com/luost26/academic-homepage
+  Code: [https://github.com/luost26/academic-homepage](https://github.com/cwmagoon/dQP)
   Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
 ---
