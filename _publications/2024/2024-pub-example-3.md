@@ -15,8 +15,8 @@ abstract: >-
 
 cover:          /assets/images/covers/dQP.jpg
 authors:
-  - Connor W. Magoon
-  - Fengyu Yang
+  - Connor W. Magoon*
+  - Fengyu Yang*
   - Noam Aigerman
   - Shahar Z. Kovalsky
 links:
