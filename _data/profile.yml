@@ -23,8 +23,8 @@ short_bio_text_justify: false
 short_bio: >-
   I am currently a Ph.D. candidate at University of North Carolina at Chapel Hill, advised by Prof. Shahar Kovalsky. My research focuses on <em>Differentiable Optimization, Machine Learning, and Statistical Modeling</em>. I am currently a Research Scientist intern at ByteDance Seed-AI for Science team, working on AI-driven protein structure reconstruction. 
 portrait_url: /assets/images/photos/my.jpg
-portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+# portrait_caption: >-
+  # Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
 - name: University of North Carolina, Chapel Hill
