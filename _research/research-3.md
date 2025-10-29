@@ -1,5 +1,5 @@
 ---
-title: "AI-driven protein structure reconstruction."
+title: "AI-driven Protein Structure Reconstruction"
 description: "Leading development of PyTorch-based open-source cryo-EM reconstruction software from scratch. Integrating the software to AI foundation models for downstream biology tasks, enabling enhanced protein structure prediction."
 cover: /assets/images/covers/cryo.png  # Optional: Add a cover image
 # links:
