@@ -10,7 +10,13 @@
             <div class="media-body">
                 {% for item in year.items %}
                 <div class="my-1 d-flex">
-                    <div>{{ item.title }}</div>
+                    <div class="flex-grow-1">
+                        {% assign title_parts = item.title | split: "<strong>" %}
+                        <div>{{ title_parts[0] }}</div>
+                        {% if title_parts[1] %}
+                        <div><strong>{{ title_parts[1] | remove: "</strong>" }}</strong></div>
+                        {% endif %}
+                    </div>
                     <div class="ml-auto mt-auto text-muted no-break"><i>{{ item.date | date: "%b %d" }}</i></div>
                 </div>
                 {% endfor %}
