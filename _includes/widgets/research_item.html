@@ -28,8 +28,8 @@
 
 <div class="d-md-none {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray">
     {%- if item.cover -%}
-    <div class="p-3">
-        <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
+    <div class="p-3 pb-0">
+        <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy rounded-sm" src="{{ '/assets/images/empty_300x200.png' | relative_url }}" style="max-width: 50%; height: auto;">
     </div>
     {%- endif -%}
     <div class="p-3">
